@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Студия дизайна Алексея Шраймана</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Topbar -->
+    <div class="topbar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <a href="tel:+79627256788" class="topbar-link">
+                        <i class="fas fa-phone"></i>
+                        <span>8 (962) 725 67 88</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://vk.com/1webdesigner" target="_blank" class="topbar-link">
+                        <i class="fab fa-vk"></i>
+                        <span>VK</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <div class="search-container">
+                        <input type="text" class="form-control search-input" placeholder="Поиск по сайту Relevansi">
+                        <i class="fas fa-search search-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 text-end">
+                    <a href="#" class="topbar-link" data-bs-toggle="modal" data-bs-target="#contactModal">
+                        <i class="fas fa-envelope"></i>
+                        <span>Обратная связь</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <h2>Студия дизайна<br>Алексея Шраймана</h2>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="vertical-divider"></div>
+                </div>
+                <div class="col-md-8">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Главная</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                        Портфолио
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="portfolio.html">Сайты / Кейсы</a></li>
+                                        <li><a class="dropdown-item" href="portfolio.html#banners">Баннеры</a></li>
+                                        <li><a class="dropdown-item" href="portfolio.html#logos">Логотипы</a></li>
+                                        <li><a class="dropdown-item" href="portfolio.html#pdf">PDF-презентации</a></li>
+                                        <li><a class="dropdown-item" href="portfolio.html#animation">Анимация</a></li>
+                                        <li><a class="dropdown-item" href="portfolio.html#identity">Айдентика</a></li>
+                                        <li><a class="dropdown-item" href="portfolio.html#marketplace">Карточки маркетплейсов</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="murmurations.html">Мурмурации</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                        Полезно знать
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="useful.html#mistakes">Типичные ошибки клиентов</a></li>
+                                        <li><a class="dropdown-item" href="useful.html#contract">Скачать договор</a></li>
+                                        <li><a class="dropdown-item" href="useful.html#brief">Бриф на разработку сайта</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="offers.html">Акции</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="contacts.html">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Contact Header -->
+        <section class="contact-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h1>Свяжитесь с нами</h1>
+                        <p>Мы всегда готовы обсудить ваш проект и ответить на любые вопросы</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Info -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="contact-card">
+                            <div class="contact-icon-large">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h4>Телефон</h4>
+                            <p>8 (962) 725 67 88</p>
+                            <a href="tel:+79627256788" class="btn btn-outline-primary">Позвонить</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-card">
+                            <div class="contact-icon-large">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h4>Email</h4>
+                            <p>alexshraiman@rambler.ru</p>
+                            <a href="mailto:alexshraiman@rambler.ru" class="btn btn-outline-primary">Написать</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-card">
+                            <div class="contact-icon-large">
+                                <i class="fab fa-vk"></i>
+                            </div>
+                            <h4>VKontakte</h4>
+                            <p>vk.com/1webdesigner</p>
+                            <a href="https://vk.com/1webdesigner" target="_blank" class="btn btn-outline-primary">Перейти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <div class="contact-form-wrapper">
+                            <h3>Обратная связь</h3>
+                            <p>Заполните форму ниже, и мы свяжемся с вами в ближайшее время</p>
+                            
+                            <form id="mainContactForm">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="mainName" class="form-label">Имя *</label>
+                                            <input type="text" class="form-control" id="mainName" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="mainEmail" class="form-label">Email *</label>
+                                            <input type="email" class="form-control" id="mainEmail" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="mainPhone" class="form-label">Телефон</label>
+                                            <input type="tel" class="form-control" id="mainPhone">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="mainService" class="form-label">Выберите услугу *</label>
+                                            <select class="form-select" id="mainService" required>
+                                                <option value="">Выберите услугу</option>
+                                                <option value="sites">Сайты</option>
+                                                <option value="banners">Баннеры</option>
+                                                <option value="logos">Логотипы</option>
+                                                <option value="animation">Анимация</option>
+                                                <option value="pdf">PDF-презентации</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="mainMessage" class="form-label">Сообщение *</label>
+                                    <textarea class="form-control" id="mainMessage" rows="5" required placeholder="Расскажите о вашем проекте..."></textarea>
+                                </div>
+                                
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg">Отправить сообщение</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Links -->
+        <section class="services-links">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center mb-4">Наши услуги</h3>
+                        <div class="row">
+                            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                                <a href="service-sites.html" class="service-link">
+                                    <i class="fas fa-globe"></i>
+                                    <span>Сайты</span>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                                <a href="service-banners.html" class="service-link">
+                                    <i class="fas fa-image"></i>
+                                    <span>Баннеры</span>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                                <a href="service-logos.html" class="service-link">
+                                    <i class="fas fa-palette"></i>
+                                    <span>Логотипы</span>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                                <a href="service-animation.html" class="service-link">
+                                    <i class="fas fa-play"></i>
+                                    <span>Анимация</span>
+                                </a>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                                <a href="service-pdf.html" class="service-link">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>PDF-презентации</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Обратная связь</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Имя</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Телефон</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="service" class="form-label">Выберите услугу</label>
+                            <select class="form-select" id="service">
+                                <option value="">Выберите услугу</option>
+                                <option value="sites">Сайты</option>
+                                <option value="banners">Баннеры</option>
+                                <option value="logos">Логотипы</option>
+                                <option value="animation">Анимация</option>
+                                <option value="pdf">PDF-презентации</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Сообщение</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p>&copy; <span id="currentYear"></span> Студия дизайна Алексея Шраймана</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <button class="btn btn-scroll-top" onclick="scrollToTop()">
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        // Main contact form functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mainContactForm = document.getElementById('mainContactForm');
+            
+            if (mainContactForm) {
+                mainContactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const formData = {
+                        name: document.getElementById('mainName').value,
+                        email: document.getElementById('mainEmail').value,
+                        phone: document.getElementById('mainPhone').value,
+                        service: document.getElementById('mainService').value,
+                        message: document.getElementById('mainMessage').value
+                    };
+                    
+                    // Show loading state
+                    const submitBtn = mainContactForm.querySelector('button[type="submit"]');
+                    const originalText = submitBtn.textContent;
+                    submitBtn.innerHTML = '<span class="loading"></span> Отправка...';
+                    submitBtn.disabled = true;
+                    
+                    // Simulate form submission (replace with actual email sending)
+                    setTimeout(() => {
+                        // Reset form
+                        mainContactForm.reset();
+                        
+                        // Reset button
+                        submitBtn.textContent = originalText;
+                        submitBtn.disabled = false;
+                        
+                        // Show success message
+                        showNotification('Сообщение успешно отправлено! Мы свяжемся с вами в ближайшее время.', 'success');
+                    }, 2000);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
